@@ -12,4 +12,8 @@ x = np.linspace(0,5,100)
 
 sol = odeint(dF,y0,x)
 
+plt.figure()
+plt.plot(x,sol)
+plt.grid()
+plt.show()
 
