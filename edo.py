@@ -7,7 +7,7 @@ def dF(y,x):
     dy = np.exp(-3*x)-2*y
     return dy
 
-y0=1
+y0=[1,2,3]
 x = np.linspace(0,5,100)
 
 sol = odeint(dF,y0,x)
