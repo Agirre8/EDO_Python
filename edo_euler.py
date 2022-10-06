@@ -9,7 +9,7 @@ def dF(x,y): #y` =f(x,y)
 x0=0
 y0=1
 xf=5
-n=100
+n=5
 
 h=(xf-x0)/n
 
