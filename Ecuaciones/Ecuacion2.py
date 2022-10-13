@@ -8,9 +8,12 @@ def dF1(y,x):
 y0=exp
 x=pi/2
 
-sol1 = odeint(dF1,y0,x)
+def solucion():
+    sol1 = odeint(dF1,y0,x)
 
-plt.figure()
-plt.plot(x,sol1)
-plt.grid()
-plt.show()
+    plt.figure()
+    plt.plot(x,sol1)
+    plt.grid()
+    plt.show()
+
+solucion()

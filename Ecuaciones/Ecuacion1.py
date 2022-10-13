@@ -15,12 +15,15 @@ y0=-1
 
 t = np.linspace(0,5)
 
-y = odeint(dF,y0,t)
+def solucion():
+    y = odeint(dF,y0,t)
 
-plt.figure()
-plt.plot(t,y)
-plt.grid()
-plt.show()
+    plt.figure()
+    plt.plot(t,y)
+    plt.grid()
+    plt.show()
+
+solucion()
 
 
 
