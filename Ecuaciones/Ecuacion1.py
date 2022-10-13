@@ -1,4 +1,9 @@
-from Importaciones.importaciones import * 
+#from Importaciones.importaciones import * 
+from cmath import exp, pi, sin, log
+import numpy as np
+from matplotlib import pyplot as plt
+from scipy.integrate import odeint
+import sympy
 
 def dF(y,x):
     dy = sympy(x**2*y-y)/(1+y)
