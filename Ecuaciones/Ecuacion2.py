@@ -1,8 +1,8 @@
-from Importaciones.importaciones import *
+from Ecuacion1 import *
 
 
 def dF1(y,x):
-    dy1 = sympy(y*log(y))/(sin(x))
+    dy1 = (y*log(y))/(sin(x))
     return dy1
 
 y01=exp
